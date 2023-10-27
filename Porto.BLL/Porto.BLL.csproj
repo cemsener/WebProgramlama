@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Porto.DAL\Porto.DAL.csproj" />
+    <ProjectReference Include="..\Porto.MODEL\Porto.MODEL.csproj" />
+  </ItemGroup>
+
+</Project>
